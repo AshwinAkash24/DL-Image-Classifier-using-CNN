@@ -1,4 +1,4 @@
-# DL-Convolutional Deep Neural Network for Image Classification
+# Ex-03 -DL-Convolutional Deep Neural Network for Image Classification
 
 ## AIM
 To develop a convolutional neural network (CNN) classification model for the given dataset.
@@ -8,39 +8,31 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits (0-9
 
 ## Neural Network Model
 Include the neural network model diagram.
+## Design Steps:
+#### STEP 1:
+Import all the required libraries (PyTorch, TorchVision, NumPy, Matplotlib, etc.)
 
-## DESIGN STEPS
-### STEP 1: 
+#### STEP 2:
+Download and preprocess the MNIST dataset using transforms.
 
-Write your own steps
+#### STEP 3:
+Create a CNN model with convolution, pooling, and fully connected layers.
 
-### STEP 2: 
+#### STEP 4:
+Set the loss function and optimizer. Move the model to GPU if available.
 
+#### STEP 5:
+Train the model using the training dataset for multiple epochs.
 
-
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
+#### STEP 6:
+Evaluate the model using the test dataset and visualize the results (accuracy, confusion matrix, classification report, sample prediction).
 
 
 ## PROGRAM
 
-### Name:
+### Name:Ashwin Akash M
 
-### Register Number:
+### Register Number:212223230024
 
 ```python
 class CNNClassifier(nn.Module):
@@ -67,17 +59,12 @@ def train_model(model, train_loadr, num_epochs=10):
 
 ## Training Loss per Epoch
 
-Include the Training Loss per epoch
 
 ## Confusion Matrix
 
-Include confusion matrix here
-
 ## Classification Report
-Include classification report here
 
 ### New Sample Data Prediction
-Include your sample input and output here
 
 ## RESULT
-Include your result here
+Thus the CNN model was trained and tested successfully on the MNIST dataset.
